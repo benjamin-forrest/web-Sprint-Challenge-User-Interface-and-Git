@@ -46,7 +46,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /*border:1px solid grey;*/ 
+    /**/border:1px solid grey; 
 }
 
 html, body {
@@ -116,9 +116,18 @@ img{
 #box10{
     background-color: #1E90FF;
 }
-/*.text{
-    padding:1%;
+.container2{
     display:flex;
+    flex-flow: row;
+}
+.container3{
+    display:flex;
+    flex-flow: row;
+}
+
+.text{
+    padding:1%;
+    display:flex wrap;
     justify-content: center;
     text-align:center;
 }
@@ -136,7 +145,7 @@ img{
     background-color:#ffffff1a;
     border:2px solid rgba(255, 255, 255, 0.568);
 }
-*/
+
 .links{
     width:100%;
     display:flex;
@@ -148,6 +157,7 @@ img{
     margin: auto;
     padding: 1%;
 }
+
 
 .top-content {
     display: flex;
