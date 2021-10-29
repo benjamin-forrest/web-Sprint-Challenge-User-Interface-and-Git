@@ -46,7 +46,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /**/border:1px solid grey; 
+    /*border:1px solid grey;*/ 
 }
 
 html, body {
@@ -59,9 +59,7 @@ h1, h2, h3, h4, h5, header, p{
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-a{
-    text-decoration: none;
-}
+
 p {
     line-height: 1.4;
 }
@@ -120,15 +118,16 @@ img{
     width:100%;
     display:flex;
     flex-flow: row;
+    padding:3%;
 }
 .container3{
     width:100%;/**/
     display:flex;
     flex-flow: row;
+    padding:3%;
 }
 
 .text{
-    padding:1%;
     display:flex;
     justify-content: center;
     text-align:left;
@@ -152,7 +151,7 @@ img{
 .text button:hover{
     color:rgba(0, 0, 0, 0.925);
     background-color:#ffffff1a;
-    border:2px solid rgb(221, 60, 60);
+    border:3px solid rgb(0, 0, 0);
 }
 
 .links{
@@ -173,7 +172,7 @@ img{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    
+    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -191,7 +190,7 @@ img{
 
 .middle-content {
     margin-bottom: 20px;
-    
+    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -240,10 +239,12 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
