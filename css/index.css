@@ -16,10 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
+	
+	
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -28,8 +26,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +51,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -78,6 +75,9 @@ header div, nav{
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+}
+#header-img{
+    max-width: 100%;
 }
 #box1{
     background-color: #008080;
@@ -110,12 +110,6 @@ header div, nav{
     background-color: #1E90FF;
 }
 
-
-#header-img{
-    width: 800px;
-    margin: 0 auto;
-    padding: 1%;
-}
 .links{
     width:50%;
     display:flex;
@@ -168,35 +162,6 @@ header div, nav{
     align-items: center;
     justify-content: center;
 }
-
-.box2{
-
-}
-.box3{
-
-}
-.box4{
-
-}
-.box5{
-
-}
-.box6{
-
-}
-.box7{
-
-}
-.box8{
-
-}
-.box9{
-
-}
-.box10{
-
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
