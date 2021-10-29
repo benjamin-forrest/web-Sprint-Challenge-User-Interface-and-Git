@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -46,7 +46,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border:1px solid grey; 
+    /*border:1px solid grey;*/ 
 }
 
 html, body {
@@ -54,31 +54,38 @@ html, body {
     
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, header, p{
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 p {
     line-height: 1.4;
 }
 header{
     width: 100%;
     background: white;
+    font-weight: bold;
+    font-size: large;
 }
-
-header div, nav{
-    width: 80%;
+nav{
+        
+}
+header div{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px 2%;
+    
     font-size: 14px;
 }
-#header-img{
+img{
     max-width: 100%;
 }
+
 #box1{
     background-color: #008080;
 }
@@ -110,15 +117,16 @@ header div, nav{
     background-color: #1E90FF;
 }
 
+
 .links{
-    width:50%;
+    width:100%;
     display:flex;
-    justify-content: right;
+    justify-content: space-around;
     align-items: center;
 }
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: auto;
     padding: 1%;
 }
 
