@@ -116,8 +116,27 @@ img{
 #box10{
     background-color: #1E90FF;
 }
-
-
+/*.text{
+    padding:1%;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+.text div{
+    width:100%;
+}
+.text button{
+    color:#bdbdbd;
+    background-color:rgba(255, 255, 255, 0);
+    transition:1.5s;
+	border:2px solid rgba(255, 255, 255, 0.459);
+}
+.text button:hover{
+    color:rgba(255, 255, 255, 0.925);
+    background-color:#ffffff1a;
+    border:2px solid rgba(255, 255, 255, 0.568);
+}
+*/
 .links{
     width:100%;
     display:flex;
