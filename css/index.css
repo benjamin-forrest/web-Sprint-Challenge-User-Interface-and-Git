@@ -117,17 +117,19 @@ img{
     background-color: #1E90FF;
 }
 .container2{
+    width:100%;
     display:flex;
     flex-flow: row;
 }
 .container3{
+    width:100%;/**/
     display:flex;
     flex-flow: row;
 }
 
 .text{
     padding:1%;
-    display:flex wrap;
+    display:flex;
     justify-content: center;
     text-align:center;
 }
