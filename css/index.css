@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid grey; 
 }
 
 html, body {
@@ -65,10 +66,34 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    width: 100%;
+    background: white;
+}
 
+header div, nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+#header-img{
+    width: 800px;
+    margin: 0 auto;
+    padding: 1%;
+}
+.links{
+    width:50%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 1%;
 }
 
 .top-content {
@@ -101,7 +126,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
